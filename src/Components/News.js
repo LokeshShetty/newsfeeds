@@ -24,7 +24,7 @@ const News = (props) => {
     props.setProgress(70);
     setArticles(parsedData.articles);
     setTotalResults(parsedData.totalResults);
-    setLoading(false);
+    setLoading(false);  
     props.setProgress(100);
   };
 
